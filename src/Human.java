@@ -1,5 +1,6 @@
 public class Human {
 
+    public boolean hasDog;
     private String name;
     private int age;
 

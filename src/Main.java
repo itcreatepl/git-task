@@ -12,4 +12,13 @@ public class Main {
 
 
     }
+
+    public void dogGuard(Human human) {
+        System.out.println("Złodziej zamierza okraść każdego mieszkańca: ");
+        if (human.hasDog == true) {
+            System.out.println("Nie zrobie skoku");
+        } else {
+            System.out.println("Skok udany");
+        }
+    }
 }
