@@ -10,9 +10,23 @@ public class Main {
         personList.add(new Person("Michal",55,"Developer",true));
         personList.add(new Person("Zenek",55,"Driver",false));
 
+
         for (Person p: personList) {
             System.out.println(p);
         }
+        System.out.println("Hello!!");
+        System.out.println(reverseList(personList));
+
+    }
+    public static List<Person> reverseList(List<Person> personList){
+
+        List<Person> invertedList = new ArrayList<>(personList.size());
+        for(int i = personList.size()-1; i >= 0;i--){
+            invertedList.add(personList.get(i));
+        }
+        return invertedList;
+
+
     }
 
     public void dogGuard(Human human) {
@@ -23,6 +37,4 @@ public class Main {
             System.out.println("Skok udany");
         }
     }
-
-
 }
