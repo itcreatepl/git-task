@@ -27,7 +27,7 @@ public class Person extends Human{
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Personxxx{" +
                 "job='" + job + '\'' +
                 ", hasDog=" + hasDog +
                 '}';
