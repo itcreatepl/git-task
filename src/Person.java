@@ -1,7 +1,7 @@
 public class Person extends Human{
 
-    String job;
-    boolean hasDog;
+    private String job;
+    private boolean hasDog;
 
     public Person(String name, int age, String job, Boolean hasDog) {
         super(name, age);
@@ -23,5 +23,13 @@ public class Person extends Human{
 
     public void setHasDog(Boolean hasDog) {
         this.hasDog = hasDog;
+    }
+
+    @Override
+    public String toString() {
+        return "Personxxx{" +
+                "job='" + job + '\'' +
+                ", hasDog=" + hasDog +
+                '}';
     }
 }
