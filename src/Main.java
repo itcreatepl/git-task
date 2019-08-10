@@ -14,7 +14,17 @@ public class Main {
         for (Person p: personList) {
             System.out.println(p);
         }
+        System.out.println("Hello!!");
+        System.out.println(reverseList(personList));
 
+    }
+    public static List<Person> reverseList(List<Person> personList){
+
+        List<Person> invertedList = new ArrayList<>(personList.size());
+        for(int i = personList.size()-1; i >= 0;i--){
+            invertedList.add(personList.get(i));
+        }
+        return invertedList;
 
 
     }
