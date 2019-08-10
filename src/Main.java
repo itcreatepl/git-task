@@ -10,13 +10,9 @@ public class Main {
         personList.add(new Person("Michal",55,"Developer",true));
         personList.add(new Person("Zenek",55,"Driver",false));
 
-
         for (Person p: personList) {
             System.out.println(p);
         }
-
-
-
     }
 
     public void dogGuard(Human human) {
@@ -27,4 +23,6 @@ public class Main {
             System.out.println("Skok udany");
         }
     }
+
+
 }
