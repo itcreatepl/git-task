@@ -1,7 +1,7 @@
 public class Person extends Human{
 
     String job;
-    Boolean hasDog;
+    boolean hasDog;
 
     public Person(String name, int age, String job, Boolean hasDog) {
         super(name, age);
