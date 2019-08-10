@@ -26,7 +26,7 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human{" +
+        return "Humanjhj{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
