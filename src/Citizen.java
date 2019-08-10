@@ -10,8 +10,8 @@ public class Citizen extends Human {
         super(name, age);
         this.name2 = name2;
         this.address = address;
-
     }
+
 
     public String getName2() {
         return name2;

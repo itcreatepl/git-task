@@ -11,5 +11,11 @@ public class Main {
         personList.add(new Person("Zenek",55,"Driver",false));
 
 
+        for (Person p: personList) {
+            System.out.println(p);
+        }
+
+
+
     }
 }
