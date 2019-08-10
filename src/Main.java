@@ -8,6 +8,7 @@ public class Main {
         personList.add(new Person("Piotr",23,"Developer",true));
         personList.add(new Person("Marek",33,"Developer",true));
         personList.add(new Person("Michal",23,"Developer",true));
+        personList.add(new Person("Zenek",33,"Driver",false));
 
 
     }
